@@ -1,4 +1,5 @@
 # Heart Attack Analysis & Prediction Dataset
+Team members are Mark Sebastian, Sylvia Duan, Son Nguyen, and Tianyi Zhang
 ## Data
 ### Description
 
