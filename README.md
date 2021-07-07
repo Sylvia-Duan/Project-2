@@ -14,3 +14,6 @@ This dataset collects data among 13 attributes of a patient, including age, sex,
 - Data among 13 attributes => technology: train an AI model to determine if the patient has heart attack by observing traits of the patient => if successful, the AI model can assist the doctor to make basic judgments in order to reduce the workload of doctors and enable further check-ups to be performed more timely (community impact)
 ## Benchmark
 Existing models:
+Linear Cox Proportional Hazard (PH) models
+
+k-fold cross-
