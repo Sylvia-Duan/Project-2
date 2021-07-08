@@ -5,8 +5,7 @@ https://www.kaggle.com/rashikrahmanpritom/heart-attack-analysis-prediction-datas
 ### Description
 Heart attack have been the deadliest form of Heart diease ever known. It been shown that about 17.9 million live have been taken away because of it. As a result, we as a group planning on using dataset and information to predict, prevent, and manage heart attack rate.<br />
 
-[Heart Attack Analysis & Prediction Dataset](https://www.kaggle.com/rashikrahmanpritom/heart-attack-analysis-prediction-dataset)<br />
-This is the link of the dataset we will use.<br />
+
 
 This dataset collects data among 13 attributes of a patient, including age, sex, chest pain type, resting blood pressure, concentration of serum cholesterol, concentration of fasting blood sugar, resting electrocardiographic results, maximum heart rate achieved, exercise induced angina or not, ST depression induced by exercise relative to rest, slope of the peak exercise ST segment, number of major vessels colored by flourosopy, thallium stress test results. These variables will be the explanatory variables in our AI model, and the predicted symptom of heart disease will be the response variable in the AI model.
 ### Importance of data
