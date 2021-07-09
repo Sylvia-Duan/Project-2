@@ -1,19 +1,19 @@
 # Import Modules
 import pandas as pd <br />
-import numpy as np
-import matplotlib.pyplot as plt
-from sklearn.tree import DecisionTreeClassifier
-from sklearn.tree import plot_tree
-from sklearn.model_selection import train_test_split
-from sklearn.model_selection import cross_val_score
-from sklearn.metrics import confusion_matrix
-from sklearn.metrics import plot_confusion_matrix
+import numpy as np <br />
+import matplotlib.pyplot as plt <br />
+from sklearn.tree import DecisionTreeClassifier <br />
+from sklearn.tree import plot_tree <br />
+from sklearn.model_selection import train_test_split <br />
+from sklearn.model_selection import cross_val_score <br />
+from sklearn.metrics import confusion_matrix <br />
+from sklearn.metrics import plot_confusion_matrix <br />
 
 # Import Data
-heart_attack_data = pd.read_csv('heart.csv')
+heart_attack_data = pd.read_csv('heart.csv') <br />
 
-X = heart_attack_data.drop('output', axis = 1).copy()
-y = heart_attack_data['output'].copy()
+X = heart_attack_data.drop('output', axis = 1).copy() <br />
+y = heart_attack_data['output'].copy() <br />
 
 # One-Hot Encoding
 X_encoded = pd.get_dummies(X, columns = ['cp',
