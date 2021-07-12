@@ -1,0 +1,13 @@
+**add this to the code previously written**
+def createModel2():
+  model2 = keras.Sequential()
+  model2.add(layers.Dense(100, activation="relu",input_dim=13,  kernel_initializer='normal'))
+  *I think it is something to do with the initializers that makes some of the loss functions super high
+  model2.add(layers.Dense(50,activation= "relu",  kernel_initializer='normal'))
+  model2.add(layers.Dense(2))
+  model2.compile(optimizer="SGD", loss = "mse")
+  return model2
+model2 = createModel2()
+##the epochs are 200 because the loss can be super high--- after 200 it goes to about the same as the losses that are normal
+model2.fit(x_train,y_train,epochs=200,verbose=1)
+model2.evaluate(x_test,y_test)
