@@ -10,6 +10,9 @@ uploaded = files.upload()
 from tensorflow.keras import layers
 from tensorflow import keras
 from tensorflow.keras import initializers
+import tensorflow as tf
+import matplotlib.pyplot as plt
+from sklearn.metrics import accuracy_score, confusion_matrix, plot_confusion_matrix
 df2 = pd.read_csv("test.csv")
 df = pd.read_csv("test.csv")
 df2 = df2.loc[:,~df.columns.str.contains('output', case=False)]
@@ -19,12 +22,20 @@ df = df.loc[:,~df.columns.str.contains('s', case=False)]
 df = df.loc[:,~df.columns.str.contains('a', case=False)]
 y_val = df.to_numpy()
 x_val = df2.to_numpy()
-x_train,x_test,y_train,y_test = train_test_split(x_val, y_val, test_size= 0.15,random_state=1)
+x_train,x_test,y_train,y_test = train_test_split(x_val, y_val, test_size= 0.15)
 model = keras.Sequential()
-model.add(layers.Dense(20, activation="relu", input_shape=(13,),kernel_initializer=initializers.RandomNormal(stddev=0.01,mean=0)))
-model.add(layers.Dense(15, activation="relu" ))
-model.add(layers.Dense(2))
-model.compile(optimizer="rmsprop",loss="mse")
+model.add(layers.Dense(20, activation="sigmoid", input_shape=(13,),kernel_initializer='normal'))
+model.add(layers.Dense(15, activation="sigmoid" ))
+model.add(layers.Dense(1,activation = 'sigmoid'))
+model.compile(optimizer="adam",loss="mse")
 model.summary()
-model.fit(x_train,y_train,epochs=100,verbose=1)
+history= model.fit(x_train,y_train,epochs=200,verbose=1)
+print(history.history.keys())
+
 model.evaluate(x_test,y_test)
+
+y_pred = model.predict(x_test)
+y_f = y_pred.round()
+from sklearn.metrics import ConfusionMatrixDisplay
+cm = confusion_matrix(y_test,y_f)
+cm_display = ConfusionMatrixDisplay(cm,display_labels='value').plot()
