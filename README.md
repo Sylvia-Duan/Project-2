@@ -14,15 +14,15 @@ Existing models:
 1. Cox Proportional Hazard (PH) models: The Cox proportional-hazards model is essentially a regression model commonly used statistical in medical research for investigating the association between the survival time of patients and one or more predictor variables. The Cox model is expressed by the hazard function denoted by h(t). Briefly, the hazard function can be interpreted as the risk of dying at time t. It can be estimated as follow:
 
 <p align="center">
-$h(t)=h_0(t)×exp(b_1x_1+b_2x_2+...+b_px_p)$
+*$h(t)=h_0(t)×exp(b_1x_1+b_2x_2+...+b_px_p)$
 </p>
 
 &nbsp; &nbsp; &nbsp; &nbsp;where,<br/>
-&nbsp; &nbsp; &nbsp; &nbsp;-t represents the survival time<br/>
-&nbsp; &nbsp; &nbsp; &nbsp;-h(t) is the hazard function determined by a set of p covariates ($x_1$,$x_2$,...,$x_p$)<br/>
+&nbsp; &nbsp; &nbsp; &nbsp;-$t$ represents the survival time<br/>
+&nbsp; &nbsp; &nbsp; &nbsp;-$h(t)$ is the hazard function determined by a set of p covariates ($x_1$,$x_2$,...,$x_p$)<br/>
 &nbsp; &nbsp; &nbsp; &nbsp;-the coefficients ($b_1$,$b_2$,...,$b_p$) measure the impact (i.e., the effect size) of covariates<br/>
-&nbsp; &nbsp; &nbsp; &nbsp;-the term $h_0$ is called the baseline hazard. It corresponds to the value of the hazard if all the $x_i$ are equal to zero (the quantity exp(0)<br/> 
-&nbsp; &nbsp; &nbsp; &nbsp;equals 1). The **t** in h(t) reminds us that the hazard may vary over time.
+&nbsp; &nbsp; &nbsp; &nbsp;-the term $h_0$ is called the baseline hazard. It corresponds to the value of the hazard if all the $x_i$ are equal to zero (the quantity $exp(0)$<br/> 
+&nbsp; &nbsp; &nbsp; &nbsp;equals 1). The **$t$** in $h(t)$ reminds us that the hazard may vary over time.
 
 
 2. k-fold cross-
