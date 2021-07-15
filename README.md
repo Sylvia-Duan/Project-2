@@ -14,7 +14,7 @@ Existing models:
 1. **Cox Proportional Hazard (PH) models**: The Cox proportional-hazards model is essentially a regression model commonly used statistical in medical research for investigating the association between the survival time of patients and one or more predictor variables. The Cox model is expressed by the hazard function denoted by h(t). Briefly, the hazard function can be interpreted as the risk of dying at time t. It can be estimated as follow:
 
 <p align="center">
-*$h(t)=h_0(t)×exp(b_1x_1+b_2x_2+...+b_px_p)$
+$h(t)=h_0(t)×exp(b_1x_1+b_2x_2+...+b_px_p)$
 </p>
 
 &nbsp; &nbsp; &nbsp; &nbsp;where,<br/>
