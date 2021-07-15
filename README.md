@@ -24,7 +24,6 @@ Existing models:
 &nbsp; &nbsp; &nbsp; &nbsp;-the term $h_0$ is called the baseline hazard. It corresponds to the value of the hazard if all the $x_i$ are equal to zero (the quantity $exp(0)$<br/> 
 &nbsp; &nbsp; &nbsp; &nbsp;equals 1). The **$t$** in $h(t)$ reminds us that the hazard may vary over time.
 
-<p align="center">
 ![](1.gif)
-</p>
+
 
