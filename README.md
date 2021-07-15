@@ -11,7 +11,7 @@ The dataset we used collects data among 13 attributes of a patient, including ag
 - Data among 13 attributes => technology: train an AI model to determine if the patient has heart attack by observing traits of the patient => if successful, the AI model can assist the doctor to make basic judgments in order to reduce the workload of doctors and enable further check-ups to be performed more timely (community impact)
 ## Benchmark
 Existing models:
-1. Cox Proportional Hazard (PH) models: The Cox proportional-hazards model is essentially a regression model commonly used statistical in medical research for investigating the association between the survival time of patients and one or more predictor variables. The Cox model is expressed by the hazard function denoted by h(t). Briefly, the hazard function can be interpreted as the risk of dying at time t. It can be estimated as follow:
+1. **Cox Proportional Hazard (PH) models**: The Cox proportional-hazards model is essentially a regression model commonly used statistical in medical research for investigating the association between the survival time of patients and one or more predictor variables. The Cox model is expressed by the hazard function denoted by h(t). Briefly, the hazard function can be interpreted as the risk of dying at time t. It can be estimated as follow:
 
 <p align="center">
 *$h(t)=h_0(t)×exp(b_1x_1+b_2x_2+...+b_px_p)$
@@ -23,7 +23,7 @@ Existing models:
 &nbsp; &nbsp; &nbsp; &nbsp;-the coefficients ($b_1$,$b_2$,...,$b_p$) measure the impact (i.e., the effect size) of covariates<br/>
 &nbsp; &nbsp; &nbsp; &nbsp;-the term $h_0$ is called the baseline hazard. It corresponds to the value of the hazard if all the $x_i$ are equal to zero (the quantity $exp(0)$<br/> 
 &nbsp; &nbsp; &nbsp; &nbsp;equals 1).<br/>
-&nbsp; &nbsp; &nbsp; &nbsp;-the **$t$** in $h(t)$ reminds us that the hazard may vary over time.
+&nbsp; &nbsp; &nbsp; &nbsp;-the $t$ in $h(t)$ reminds us that the hazard may vary over time.
 
 ![](1.gif)
 
