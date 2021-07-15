@@ -18,10 +18,10 @@ $h(t)=h_0(t)×exp(b_1x_1+b_2x_2+...+b_px_p)$
 </p>
 <p align="center">
 where,
-- t represents the survival time
-- h(t) is the hazard function determined by a set of p covariates (x1,x2,...,xp)
-- the coefficients (b1,b2,...,bp) measure the impact (i.e., the effect size) of covariates.
-- the term h0 is called the baseline hazard. It corresponds to the value of the hazard if all the xi are equal to zero (the quantity exp(0) equals 1). The ‘t’ in h(t) reminds us - that the hazard may vary over time.
+-t represents the survival time<br/>
+-h(t) is the hazard function determined by a set of p covariates (x_1,x_2,...,x_p)<br/>
+-the coefficients (b_1,b_2,...,b_p) measure the impact (i.e., the effect size) of covariates<br/>
+-the term h_0 is called the baseline hazard. It corresponds to the value of the hazard if all the xi are equal to zero (the quantity exp(0) equals 1). The ‘t’ in h(t) reminds us that the hazard may vary over time.
 </p>
 
 2. k-fold cross-
