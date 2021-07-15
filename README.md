@@ -25,7 +25,6 @@ Existing models:
 &nbsp; &nbsp; &nbsp; &nbsp;equals 1). The **$t$** in $h(t)$ reminds us that the hazard may vary over time.
 
 <p align="center">
-![](https://www.google.com.hk/imgres?imgurl=https%3A%2F%2Fstablemarkets.netlify.app%2Fpost%2Fpost3%2F2019-05-11-the-gamma-process-prior_files%2Ffigure-html%2Funnamed-chunk-1-.gif&imgrefurl=https%3A%2F%2Fstablemarkets.netlify.app%2Fpost%2Fpost3%2Fgamma-process-prior%2F&tbnid=faSvnwG7FF7G3M&vet=12ahUKEwjkq8zahuXxAhWEh54KHQQaBfcQMygEegUIARDxAQ..i&docid=1nJEekfOr7B7dM&w=1728&h=960&itg=1&q=cox%20proportional%20hazards%20model&hl=en&ved=2ahUKEwjkq8zahuXxAhWEh54KHQQaBfcQMygEegUIARDxAQ)
+![](https://stablemarkets.netlify.app/post/post3/2019-05-11-the-gamma-process-prior_files/figure-html/unnamed-chunk-1-.gif)
 </p>
 
-2. k-fold cross-
