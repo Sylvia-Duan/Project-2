@@ -15,6 +15,8 @@ Existing models:
 
 <p align="center">
 $h(t)=h_0(t)×exp(b_1x_1+b_2x_2+...+b_px_p)$
+</p>
+<p align="center">
 where,
 -t represents the survival time
 -h(t) is the hazard function determined by a set of p covariates (x1,x2,...,xp)
