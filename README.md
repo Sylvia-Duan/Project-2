@@ -26,5 +26,5 @@ $h(t)=h_0(t)×exp(b_1x_1+b_2x_2+...+b_px_p)$
 &nbsp; &nbsp; &nbsp; &nbsp;-the $t$ in $h(t)$ reminds us that the hazard may vary over time.
 
 ![](1.gif)
-
+&nbsp; &nbsp; &nbsp; &nbsp;*NOTE: The graph above is not the model based on the dataset that we used. Instead, it shows a typical from.*
 
