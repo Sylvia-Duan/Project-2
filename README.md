@@ -25,6 +25,6 @@ $h(t)=h_0(t)×exp(b_1x_1+b_2x_2+...+b_px_p)$
 &nbsp; &nbsp; &nbsp; &nbsp;equals 1).<br/>
 &nbsp; &nbsp; &nbsp; &nbsp;-the $t$ in $h(t)$ reminds us that the hazard may vary over time.
 
-![](1. gif)
+![](1.gif)
 
 
