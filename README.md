@@ -19,10 +19,13 @@ Existing models:
 
 &nbsp; &nbsp; &nbsp; &nbsp;where,<br/>
 &nbsp; &nbsp; &nbsp; &nbsp;-$t$ represents the survival time<br/>
-&nbsp; &nbsp; &nbsp; &nbsp;-$h(t)$ is the hazard function determined by a set of p covariates ($x_1$,$x_2$,...,$x_p$)<br/>
+&nbsp; &nbsp; &nbsp; &nbsp;-$h(t)$ is the hazard function determined by a set of $p$ covariates ($x_1$,$x_2$,...,$x_p$)<br/>
 &nbsp; &nbsp; &nbsp; &nbsp;-the coefficients ($b_1$,$b_2$,...,$b_p$) measure the impact (i.e., the effect size) of covariates<br/>
 &nbsp; &nbsp; &nbsp; &nbsp;-the term $h_0$ is called the baseline hazard. It corresponds to the value of the hazard if all the $x_i$ are equal to zero (the quantity $exp(0)$<br/> 
 &nbsp; &nbsp; &nbsp; &nbsp;equals 1). The **$t$** in $h(t)$ reminds us that the hazard may vary over time.
 
+<p align="center">
+![](https://www.google.com.hk/imgres?imgurl=https%3A%2F%2Fstablemarkets.netlify.app%2Fpost%2Fpost3%2F2019-05-11-the-gamma-process-prior_files%2Ffigure-html%2Funnamed-chunk-1-.gif&imgrefurl=https%3A%2F%2Fstablemarkets.netlify.app%2Fpost%2Fpost3%2Fgamma-process-prior%2F&tbnid=faSvnwG7FF7G3M&vet=12ahUKEwjkq8zahuXxAhWEh54KHQQaBfcQMygEegUIARDxAQ..i&docid=1nJEekfOr7B7dM&w=1728&h=960&itg=1&q=cox%20proportional%20hazards%20model&hl=en&ved=2ahUKEwjkq8zahuXxAhWEh54KHQQaBfcQMygEegUIARDxAQ)
+</p>
 
 2. k-fold cross-
