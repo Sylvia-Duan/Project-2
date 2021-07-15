@@ -25,6 +25,6 @@ Existing models:
 &nbsp; &nbsp; &nbsp; &nbsp;equals 1). The **$t$** in $h(t)$ reminds us that the hazard may vary over time.
 
 <p align="center">
-![](https://stablemarkets.netlify.app/post/post3/2019-05-11-the-gamma-process-prior_files/figure-html/unnamed-chunk-1-.gif)
+![](1.gif)
 </p>
 
